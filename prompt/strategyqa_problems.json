@@ -1,0 +1,6 @@
+[
+    {
+        "role": "system",
+        "content": "Answer each question only with 'yes' or 'no'."
+    }
+]

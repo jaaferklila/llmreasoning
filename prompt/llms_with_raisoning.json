@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "Answer the following questions directly in the exact format: <answer>the answer<answer/>. Do not add any extra text, explanation, or punctuation."
+    },
+    {
+        "role": "user",
+        "content": "Iqaluit Airport and Canadian North are based out of what country?"
+    },
+    {
+        "role": "assistant",
+        "content": "<answer>Canada<answer/>"
+    },
+    {
+        "role": "user",
+        "content": "Who is the composer Howard Ashman worked with on his musical released in 1982?"
+    },
+    {
+        "role": "assistant",
+        "content": "<answer>Alan Menken<answer/>"
+    },
+    {
+        "role": "user",
+        "content": "Where did the father of Maria Brontë spend most of his adult life?"
+    },
+    {
+        "role": "assistant",
+        "content": "<answer>England<answer/>"
+    },
+    {
+        "role": "user",
+        "content": "Who is the Russian figure skater who danced with a Russian pair skater in 1988 and 1994?"
+    },
+    {
+        "role": "assistant",
+        "content": "<answer>Ekaterina Gordeeva<answer/>"
+    },
+    {
+        "role": "user",
+        "content": "Dixit Dominus is a psalm setting by who, which was a German, later British, baroque composer who spent the bulk of his career in London, becoming well known for his operas, oratorios, anthems, and organ concertos?"
+    },
+    {
+        "role": "assistant",
+        "content": "<answer>George Frideric Handel<answer/>"
+    }
+]

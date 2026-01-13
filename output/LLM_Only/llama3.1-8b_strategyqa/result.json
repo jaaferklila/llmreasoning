@@ -1,0 +1,8 @@
+{
+    "model": "llama3.1-8b",
+    "dataset": "strategyqa",
+    "accuracy": 0.6960698689956332,
+    "total": 2290,
+    "correct": 1594,
+    "results": []
+}

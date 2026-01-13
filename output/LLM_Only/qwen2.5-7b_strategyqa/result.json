@@ -1,0 +1,8 @@
+{
+    "model": "qwen2.5-7b",
+    "dataset": "strategyqa",
+    "accuracy": 0.722707423580786,
+    "total": 2290,
+    "correct": 1655,
+    "results": []
+}

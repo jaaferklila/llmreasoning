@@ -1,0 +1,60 @@
+[
+    {
+        "role": "system",
+        "content": "Generate a detailed chain of thought with each reasoning step labeled as [STEP]. Replace any specific knowledge, entities, dates, or locations that are not in the text of question with [MASK]. Focus only on the logical steps and flow. And then include the category of each [MASK *] in order in the chain of thought as [CATEGORY], to clarify the type of entity that should be filled."
+    },
+
+    {
+        "role": "user",
+        "content": "Question: Is it possible to get killed walking to the Very Large Telescope?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] The Very Large Telescope is located in the [MASK 1].\n[STEP] The [MASK 1] is the driest hot desert in the world.\n[STEP] Thus, it is possible to get killed walking in the [MASK 1].\n[STEP] Therefore, the answer is [MASK ANS].\n[CATEGORY]\n[MASK 1] [location]\n[MASK ANS] [yes/no]"
+    },
+
+    {
+        "role": "user",
+        "content": "Question: Did Clark Gable marry more women once than Richard Burton?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Richard Burton was married to [MASK 1] different women.\n[STEP] Clark Gable was married to [MASK 2] different women, one time each.\n[STEP] Thus, Clark Gable married more women than Richard Burton.\n[STEP] Therefore, the answer is [MASK ANS].\n[CATEGORY]\n[MASK 1] [number]\n[MASK 2] [number]\n[MASK ANS] [yes/no]"
+    },
+
+    {
+        "role": "user",
+        "content": "Question: Can a human heart last from NYC to Raleigh NC by Toyota Hiux?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Human hearts can last up to [MASK 1] hours outside the body.\n[STEP] The distance from [MASK 2] to [MASK 3] is [MASK 4] miles.\n[STEP] The top speed of a Toyota Hilux is [MASK 5] miles per hour.\n[STEP] The time needed to travel from [MASK 2] to [MASK 3] is [MASK 4] miles / [MASK 5] miles per hour = [MASK 6] hours.\n[STEP] Thus, the time needed to travel from [MASK 2] to [MASK 3] is less than [MASK 1] hours.\n[STEP] Therefore, the answer is [MASK ANS].\n[CATEGORY]\n[MASK 1] [time]\n[MASK 2] [city]\n[MASK 3] [city]\n[MASK 4] [distance]\n[MASK 5] [speed]\n[MASK 6] [time]\n[MASK ANS] [yes/no]"
+    },
+
+    {
+        "role": "user",
+        "content": "Question: Is H's most common two letter pair partner a freebie in Wheel of Fortune bonus round?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] H forms the most common two letter pair in the English language along with the letter [MASK 1].\n[STEP] The Wheel of Fortune bonus round gives the player six free letters: [MASK 2].\n[STEP] Thus, the letter [MASK 1] is included in the given six free letters in the Wheel of Fortune bonus round.\n[STEP] Therefore, the answer is [MASK ANS].\n[CATEGORY]\n[MASK 1] [letter]\n[MASK 2] [letters]\n[MASK ANS] [yes/no]"
+    },
+
+    {
+        "role": "user",
+        "content": "Question: Could someone in Tokyo take a taxi to the The Metropolitan Museum of Art?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Tokyo is located in [MASK 1].\n[STEP] The Metropolitan Museum of Art is in the [MASK 2].\n[STEP] [MASK 1] and [MASK 2] are separated by the [MASK 3].\n[STEP] A taxi is not capable of travelling over the [MASK 3].\n[STEP] Therefore, the answer is [MASK ANS].\n[CATEGORY]\n[MASK 1] [city]\n[MASK 2] [location]\n[MASK 3] [ocean]\n[MASK ANS] [yes/no]"
+    },
+
+    {
+        "role": "user",
+        "content": "Question: Does Olympia Washington share name with Hephaestus's workshop location?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Olympia Washington is named after [MASK 1], which is a mountain range in Washington named after the ancient Greek [MASK 2].\n[STEP] [MASK 2] was the ancient Greek god of the forge and had a workshop on [MASK 1].\n[STEP] Therefore, the answer is [MASK ANS].\n[CATEGORY]\n[MASK 1] [location]\n[MASK 2] [mythological figure]\n[MASK ANS] [yes/no]"
+    }
+]

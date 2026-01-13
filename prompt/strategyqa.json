@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "Generate a detailed chain-of-thought with each reasoning step labeled as [STEP]. Replace any unknown entities, concepts, or intermediate facts not in the question with [MASK]. The final conclusion should be represented as [MASK ANS]. Include a [CATEGORY] section at the end listing the type of each [MASK *]."
+    },
+    {
+        "role": "user",
+        "content": "Question: Can a bird fly if its wings are broken?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Birds need their wings to fly.\n[STEP] If a bird's wings are broken, it cannot generate lift.\n[STEP] Therefore, a bird cannot fly if its wings are broken, so the answer is [MASK ANS].\n[CATEGORY]\n[MASK ANS] [yes/no]"
+    },
+    {
+        "role": "user",
+        "content": "Question: Can a plant grow without sunlight?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Plants require sunlight for photosynthesis.\n[STEP] Without sunlight, plants cannot produce energy.\n[STEP] Therefore, a plant cannot grow without sunlight, so the answer is [MASK ANS].\n[CATEGORY]\n[MASK ANS] [yes/no]"
+    },
+    {
+        "role": "user",
+        "content": "Question: Can ice melt at room temperature?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Ice melts when the temperature is above 0°C.\n[STEP] Room temperature is generally above 0°C.\n[STEP] Therefore, ice can melt at room temperature, so the answer is [MASK ANS].\n[CATEGORY]\n[MASK ANS] [yes/no]"
+    },
+    {
+        "role": "user",
+        "content": "Question: Can humans breathe underwater without equipment?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Humans need oxygen from air to survive.\n[STEP] Water does not contain breathable oxygen for humans.\n[STEP] Therefore, humans cannot breathe underwater without equipment, so the answer is [MASK ANS].\n[CATEGORY]\n[MASK ANS] [yes/no]"
+    },
+    {
+        "role": "user",
+        "content": "Question: Can a car move without wheels?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Cars require wheels to move on the ground.\n[STEP] Without wheels, a car cannot roll or drive.\n[STEP] Therefore, a car cannot move without wheels, so the answer is [MASK ANS].\n[CATEGORY]\n[MASK ANS] [yes/no]"
+    }
+]

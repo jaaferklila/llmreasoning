@@ -1,0 +1,47 @@
+ [
+    {
+        "role": "system",
+        "content": "Given the first question words without any analysis. You just need to give a word or phrase."
+    },
+
+    {
+        "role": "user",
+        "content": "Sentence: Who is the President of the United States?"
+    },
+    {
+        "role": "assistant",
+        "content": "Joe Biden"
+    },
+    {
+        "role": "user",
+        "content": "Sentence: Who wrote 'Romeo and Juliet'?"
+    },
+    {
+        "role": "assistant",
+        "content": "William Shakespeare"
+    },
+    {
+        "role": "user",
+        "content": "Sentence: What is the largest planet in the Solar System?"
+    },
+    {
+        "role": "assistant",
+        "content": "Jupiter"
+    },
+    {
+        "role": "user",
+        "content": "Sentence: What element has the chemical symbol O?"
+    },
+    {
+        "role": "assistant",
+        "content": "Oxygen"
+    },
+    {
+        "role": "user",
+        "content": "Sentence: What is the tallest mountain in the world?"
+    },
+    {
+        "role": "assistant",
+        "content": "Mount Everest"
+    }
+]
